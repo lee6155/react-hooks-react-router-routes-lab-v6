@@ -1,6 +1,6 @@
-import { useState } from "react";
 
-function DirectorCard({ name, movies }) {
+
+function ActorCard({ name, movies }) {
     return (
         <article>
             <h2>{name}</h2>
@@ -9,4 +9,4 @@ function DirectorCard({ name, movies }) {
     )
 }
 
-export default DirectorCard
+export default ActorCard

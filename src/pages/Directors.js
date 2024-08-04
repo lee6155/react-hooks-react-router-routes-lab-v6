@@ -3,7 +3,7 @@ import NavBar from "../components/NavBar"
 import DirectorCard from "../components/DirectorCard"
 
 function Directors() {
-  const [directorInfo, setDirectorInfo] = useState({})
+  const [directorInfo, setDirectorInfo] = useState([])
 
   useEffect(() => {
     fetch("http://localhost:4000/directors")

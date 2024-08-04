@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import NavBar from "../components/NavBar"
 
 function Movie() {
   const [movieInfo, setMovieInfo] = useState({})
@@ -15,6 +16,7 @@ function Movie() {
   return (
     <>
       <header>
+        <NavBar/>
         <h1>{movieInfo.title}</h1>
         {/* What component should go here? */}
       </header>
